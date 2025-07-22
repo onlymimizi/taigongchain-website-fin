@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #7c3aed;
+  --dark: #0f172a;
+  --darker: #020617;
+  --light: #f1f5f9;
+  --gray: #94a3b8;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --water-blue: #0ea5e9;
+  --fish-orange: #f97316;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, var(--darker), var(--dark));
+  color: var(--light);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+.btn {
+  @apply px-4 py-2 font-semibold rounded-lg inline-flex items-center gap-2 transition-all;
+}
+.btn-primary {
+  background-color: var(--water-blue);
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #0284c7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+}
+.btn-success {
+  background-color: var(--success);
+  color: white;
+}
