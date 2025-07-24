@@ -1,0 +1,27 @@
+
+.signqr-container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+}
+.signqr-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.signqr-container button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.result-block {
+  margin-top: 30px;
+}
+.result-block p {
+  word-break: break-all;
+}

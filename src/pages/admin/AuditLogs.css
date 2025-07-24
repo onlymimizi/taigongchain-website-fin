@@ -1,0 +1,18 @@
+
+.audit-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.audit-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.audit-container th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.audit-container th {
+  background: #f4f4f4;
+}
